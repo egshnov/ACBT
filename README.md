@@ -24,7 +24,7 @@
 ## Используемые инструменты
 - TASM (Turbo Assembler)
 - TLINK (Turbo Linker)
-- DOSBox/QEMU для эмуляции
+- virt-manager + ms-dos для эмуляции
 
 ## Сборка
 Каждая лабораторная работа содержит свои инструкции по сборке в соответствующем README.md
