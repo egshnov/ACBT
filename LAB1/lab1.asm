@@ -1,6 +1,6 @@
 ; nasm -f lab1.asm -o lab1.bin
 ; dd if=/dev/zero of=floppy.img bs=512 count=2880
-; dd if=ascii_boot.bin of=floppy.img conv=notrunc
+; dd if=lab1.bin of=floppy.img conv=notrunc
 ; qemu-system-i386 -fda floppy.img
 
 org 7C00h                
